@@ -1,0 +1,24 @@
+{
+    "name": "gml-support-custom",
+    "displayName": "GML Support Custom",
+    "description": "Custom syntax highlighting for GML Support.",
+    "version": "0.0.1",
+    "publisher": "liaronce",
+    "engines": {
+        "vscode": "^1.8.0"
+    },
+    "icon": "icon.png",
+    "categories": [
+        "Languages"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/LiarOnce/gml-support-custom.git"
+    },
+    "contributes": {
+        "grammars": [{
+            "scopeName": "source.gml-extra",
+            "path": "./syntaxes/gmlextra.json"
+        }]
+    }
+}

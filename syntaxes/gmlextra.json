@@ -1,0 +1,11 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "fileTypes": ["gml"],
+    "scopeName": "source.gml-extra",
+      "patterns": [
+      {
+         "match": "(?i)\\b(liaronce_test)\\b",
+         "name": "support.function.gml-extra"
+      }
+   ]
+}
