@@ -4,6 +4,7 @@
     "description": "Custom syntax highlighting for GML Support.",
     "version": "0.0.1",
     "publisher": "liaronce",
+    "license": "SEE LICENSE IN LICENSE",
     "engines": {
         "vscode": "^1.8.0"
     },
